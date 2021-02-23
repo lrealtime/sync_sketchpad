@@ -55,7 +55,7 @@ export default {
   mounted() {
     this.irealtime = new IRealTime({
       host: "hk.irealtime.cn",
-      appkey: "evwgarjidaqzkh3twfiz5uv10ukqagwg", // common key,
+      appkey: "your appkey", //如何获取appkey： https://irealtime.cn/docs/get_account_and_appkey.html
       onConnected: function () {
         console.log("连接成功...");
       },
