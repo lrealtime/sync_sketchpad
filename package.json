@@ -8,11 +8,15 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "deploy": "sh scripts/deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "index.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "irealtime": "^1.0.1",
+    "less": "^4.1.1",
+    "less-loader": "7.3.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
